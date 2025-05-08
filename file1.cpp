@@ -22,6 +22,18 @@ singlelist()
 }
 
 void addnode()
+{
+    int nim;
+    cout << "\nMasukkan Nomor Mahasiswa: ";
+    cin >> nim;
+
+
+    node *nodebaru = new node;
+    nodebaru->noMhs = nim;
+
+
+    if (START == NULL || nim <= START ->noMhs)
+    
 
 
 
