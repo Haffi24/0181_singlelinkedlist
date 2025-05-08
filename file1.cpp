@@ -10,3 +10,10 @@ class node
          node *next;
 };
 
+class list
+{
+    node *START;
+
+    public:
+    
+}
