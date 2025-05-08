@@ -34,15 +34,19 @@ void addnode()
 
     if (START == NULL || nim <= START ->noMhs)
     
+    {
+        if ((START != NULL) && (nim == START ->noMhs))
+        {
+            cout << "\nDuplikasi noMhs tidak diijinkan\n";
+            return;
+        }
+        nodebaru->next=START;
+        START = nodebaru;
+        return;
+    }
+    
+    node *previous = START;
+    node *current = START;
 
-
-
-
-
-
-
-
-
-
-
-};
+    while ((current = NULL) && (nim >= current->noMhs))
+    
