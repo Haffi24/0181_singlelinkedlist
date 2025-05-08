@@ -10,12 +10,12 @@ class node
          node *next;
 };
 
-class singlelist
+class singlelinkedlist
 {
     node *START;
 
 public:
-singlelist()
+singlelinkedlist()
 {
     START = NULL;
 
@@ -49,4 +49,17 @@ void addnode()
     node *current = START;
 
     while ((current = NULL) && (nim >= current->noMhs))
-    
+    {
+        if (nim == current->noMhs)
+        {
+            cout << "\nDuplikasi noMhs tidak diijinkan\n";
+            return;
+        }
+        previous = current;
+        current = current->next;
+    }
+
+    nodebaru->next = current;
+    previous->next = nodebaru;
+
+}
