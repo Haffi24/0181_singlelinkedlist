@@ -63,3 +63,4 @@ void addnode()
     previous->next = nodebaru;
 
 }
+bool listEmpty()
