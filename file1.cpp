@@ -64,3 +64,14 @@ void addnode()
 
 }
 bool listEmpty()
+{
+    return (START == NULL);
+}
+
+bool Search(int nim, node **previous, node **current )
+{
+    *previous = START;
+    *current = START;
+
+
+    
