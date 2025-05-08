@@ -14,6 +14,5 @@ class list
 {
     node *START;
 
-    public:
+public:
     
-}
