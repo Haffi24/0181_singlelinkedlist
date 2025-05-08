@@ -10,9 +10,27 @@ class node
          node *next;
 };
 
-class list
+class singlelist
 {
     node *START;
 
 public:
-    
+singlelist()
+{
+    START = NULL;
+
+}
+
+void addnode()
+
+
+
+
+
+
+
+
+
+
+
+};
