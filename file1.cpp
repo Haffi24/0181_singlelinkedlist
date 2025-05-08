@@ -99,3 +99,25 @@ bool delnode (int nim)
     return true;
 }
 
+void traverse()
+{
+    if (listEmpty())
+    {
+        cout <<"\nData didalam list adalah:\n";
+        node *currentnode = START;
+        while (currentnode != NULL)
+        {
+            cout << currentnode->noMhs << endl;
+            currentnode = currentnode->next;
+        
+        }
+        cout << endl;
+    }
+    
+    
+}
+
+
+};
+
+
